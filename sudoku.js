@@ -44,20 +44,20 @@ function createboard() {
     for (let y = 0; y < 9; y++) {
         for (let x = 0; x < 9; x++) {
             if (x != 0 & y != 0 & x % 3 == 0 & y % 3 == 0) {
-                i += `<input id="xy${x}${y}" class="border-l-4 border-t-4 h-10 w-10 text-center md:h-14 md:w-14 focus:border-gray-500 focus:ring-gray-500 focus:bg-blue-300"
+                i += `<input id="xy${x}${y}" class="bg-white border-l-4 border-t-4 h-10 w-10 text-center md:h-14 md:w-14"
     type="number" min="1" max="9"/>`;
     
             }
             else if (y != 0 & y % 3 == 0) {
-                i += `<input id="xy${x}${y}" class="border-t-4 h-10 w-10 text-center md:h-14 md:w-14 focus:border-gray-500 focus:ring-gray-500 focus:bg-blue-300"
+                i += `<input id="xy${x}${y}" class="bg-white border-t-4 h-10 w-10 text-center md:h-14 md:w-14"
     type="number" min="1" max="9"/>`;
             }
             else if (x != 0 & x % 3 == 0) {
-                i += `<input id="xy${x}${y}" class="border-l-4 h-10 w-10 text-center md:h-14 md:w-14 focus:border-gray-500 focus:ring-gray-500 focus:bg-blue-300"
+                i += `<input id="xy${x}${y}" class="bg-white border-l-4 h-10 w-10 text-center md:h-14 md:w-14"
     type="number" min="1" max="9"/>`;
             }
             else {
-                i += `<input id="xy${x}${y}" class="h-10 w-10 text-center md:h-14 md:w-14 focus:border-gray-500 focus:ring-gray-500 focus:bg-blue-300"
+                i += `<input id="xy${x}${y}" class="bg-white h-10 w-10 text-center md:h-14 md:w-14"
     type="number" min="1" max="9"/>`;
             }
     
