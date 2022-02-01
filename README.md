@@ -3,7 +3,7 @@ It can solve any sudoku puzzle using backtracking and can also generate random p
 saotsu.herokuapp.com/sudoku/
 
 Built with Html, Tailwind CSS and Javascript.
-<pre>:
+<pre>
 ![Screenshot](sudoku.png)
 
 
