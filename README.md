@@ -4,7 +4,7 @@ saotsu.herokuapp.com/sudoku/
 
 Built with Html, Tailwind CSS and Javascript.
 
-![Screenshot](sudoku.png)
+
 
 
 
